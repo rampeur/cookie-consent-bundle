@@ -1,0 +1,7 @@
+header: 'Ce site utilise des cookies!'
+message: 'Ce site utilise des cookies pour vous assurer d''obtenir la meilleure expérience sur notre site.'
+dismiss: 'J''ai compris!'
+allow: 'Autoriser les cookies'
+deny: 'Refuser'
+link: 'En savoir plus'
+close: '&#x274c;'

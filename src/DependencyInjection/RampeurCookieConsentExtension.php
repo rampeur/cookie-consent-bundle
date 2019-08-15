@@ -11,8 +11,8 @@ use Symfony\Component\HttpKernel\DependencyInjection\ConfigurableExtension;
  * Class RampeurCookieConsentExtension
  *
  * @package Rampeur\Bundle\CookieConsentBundle\DependencyInjection
- * @author  Nikita Loges
- * @company tenolo GbR
+ * @author  Julien Gautier
+ * @company UnEspace SARL
  */
 class RampeurCookieConsentExtension extends ConfigurableExtension
 {

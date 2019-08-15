@@ -8,7 +8,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  * Class RampeurCookieConsentBundle
  *
  * @package Rampeur\Bundle\CookieConsentBundle
- * @author  Nikita Loges
+ * @author  Julien Gautier
  */
 class RampeurCookieConsentBundle extends Bundle
 {
