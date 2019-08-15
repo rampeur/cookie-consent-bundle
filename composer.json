@@ -1,29 +1,29 @@
 {
-    "name": "shapecode/cookie-consent-bundle",
+    "name": "rampeur/cookie-consent-bundle",
     "description": "Symfony Bundle for the Cookie Consent Plugin.",
     "keywords": [
         "cookie",
         "consent",
         "insites",
         "policy",
-        "shapecode",
+        "rampeur",
         "symfony",
         "bundle"
     ],
     "type": "symfony-bundle",
     "license": "MIT",
-    "homepage": "https://github.com/shapecode/cookie-consent-bundle",
+    "homepage": "https://github.com/rampeur/cookie-consent-bundle",
     "support": {
-        "email": "support@shapeocode.de",
-        "issues": "https://github.com/shapecode/cookie-consent-bundle/issues",
-        "source": "https://github.com/shapecode/cookie-consent-bundle/releases",
-        "wiki": "https://github.com/shapecode/cookie-consent-bundle/wiki"
+        "email": "admin@unespace.com",
+        "issues": "https://github.com/rampeur/cookie-consent-bundle/issues",
+        "source": "https://github.com/rampeur/cookie-consent-bundle/releases",
+        "wiki": "https://github.com/rampeur/cookie-consent-bundle/wiki"
     },
     "authors": [
         {
-            "name": "Nikita Loges",
-            "homepage": "https://loges.software",
-            "email": "software@nikita-loges.de"
+            "name": "Julien Gautier",
+            "homepage": "https://unespace.fr",
+            "email": "admin@unespace.com"
         }
     ],
     "require": {
@@ -40,7 +40,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Shapecode\\Bundle\\CookieConsentBundle\\": "src/"
+            "Rampeur\\Bundle\\CookieConsentBundle\\": "src/"
         }
     },
     "extra": {
