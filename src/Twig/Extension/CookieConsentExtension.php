@@ -10,8 +10,8 @@ use Twig\TwigFunction;
  * Class CookieConsentExtension
  *
  * @package Rampeur\Bundle\CookieConsentBundle\Twig\Extension
- * @author  Nikita Loges
- * @company tenolo GbR
+ * @author  Julien Gautier
+ * @company UnEspace SARL
  */
 class CookieConsentExtension extends AbstractExtension
 {

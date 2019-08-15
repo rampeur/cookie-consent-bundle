@@ -9,7 +9,7 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
  * Class Configuration
  *
  * @package Rampeur\Bundle\CookieConsentBundle\DependencyInjection
- * @author  Nikita Loges
+ * @author  Julien Gautier
  */
 class Configuration implements ConfigurationInterface
 {
