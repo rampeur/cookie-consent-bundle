@@ -5,7 +5,9 @@
 [![Latest Unstable Version](https://poser.pugx.org/rampeur/cookie-consent-bundle/v/unstable)](https://packagist.org/packages/rampeur/cookie-consent-bundle)
 [![License](https://poser.pugx.org/rampeur/cookie-consent-bundle/license)](https://packagist.org/packages/rampeur/cookie-consent-bundle)
 
-**Symfony Bundle for the popular [Cookie Consent plugin](https://cookieconsent.insites.com/).**
+**Symfony Bundle for the popular [Cookie Consent plugin](https://cookieconsent.osano.com/).**
+
+Ce projet est un fork de [Cookie Consent Bundle](https://github.com/shapecode/cookie-consent-bundle/) pour Symfony4 par [Shapecode](https://github.com/shapecode/)
 
 ## Install
 
@@ -41,7 +43,7 @@ rampeur_cookie_consent:
     
     // default layout options
     layout:
-        position: top  
+        position: top
         static: false
         theme: edgeless
         palette:
@@ -53,7 +55,7 @@ rampeur_cookie_consent:
                 text: #ffffff
 ```
 
-**Note:** Translations are in `RampeurCookieConsent.de` domain.
+**Note:** Translations are in `RampeurCookieConsent.fr` domain.
 
 Use the `cookie_consent` method in your Twig template:
 `{{ cookie_consent() }}`
