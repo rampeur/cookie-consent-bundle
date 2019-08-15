@@ -1,16 +1,16 @@
 <?php
 
-namespace Shapecode\Bundle\CookieConsentBundle;
+namespace Rampeur\Bundle\CookieConsentBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
- * Class ShapecodeCookieConsentBundle
+ * Class RampeurCookieConsentBundle
  *
- * @package Shapecode\Bundle\CookieConsentBundle
+ * @package Rampeur\Bundle\CookieConsentBundle
  * @author  Nikita Loges
  */
-class ShapecodeCookieConsentBundle extends Bundle
+class RampeurCookieConsentBundle extends Bundle
 {
 
 }

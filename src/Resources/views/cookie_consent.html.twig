@@ -1,6 +1,6 @@
 {% if config.assets_on == true %}
-    <link rel="stylesheet" type="text/css" href="{{ asset('bundles/shapecodecookieconsent/cookieconsent.min.css') }}"/>
-    <script src="{{ asset('bundles/shapecodecookieconsent/cookieconsent.min.js') }}"></script>
+    <link rel="stylesheet" type="text/css" href="{{ asset('bundles/rampeurcookieconsent/cookieconsent.min.css') }}"/>
+    <script src="{{ asset('bundles/rampeurcookieconsent/cookieconsent.min.js') }}"></script>
 {% endif %}
 <script>
     window.addEventListener("load", function () {
@@ -19,18 +19,18 @@
             theme: "{{ config.layout.theme }}",
             position: "{{ config.layout.position }}",
             content: {
-                header: '{{ 'header'|trans({}, 'ShapecodeCookieConsent') }}',
-                message: '{{ 'message'|trans({}, 'ShapecodeCookieConsent') }}',
-                dismiss: '{{ 'dismiss'|trans({}, 'ShapecodeCookieConsent') }}',
-                allow: '{{ 'allow'|trans({}, 'ShapecodeCookieConsent') }}',
-                deny: '{{ 'deny'|trans({}, 'ShapecodeCookieConsent') }}',
-                link: '{{ 'link'|trans({}, 'ShapecodeCookieConsent') }}',
+                header: '{{ 'header'|trans({}, 'RampeurCookieConsent') }}',
+                message: '{{ 'message'|trans({}, 'RampeurCookieConsent') }}',
+                dismiss: '{{ 'dismiss'|trans({}, 'RampeurCookieConsent') }}',
+                allow: '{{ 'allow'|trans({}, 'RampeurCookieConsent') }}',
+                deny: '{{ 'deny'|trans({}, 'RampeurCookieConsent') }}',
+                link: '{{ 'link'|trans({}, 'RampeurCookieConsent') }}',
                 {% if config.policy_route is not null %}
                 href: '{{ path(config.policy_route) }}',
                 {% elseif config.policy_url is not null %}
                 href: '{{ config.policy_url }}',
                 {% endif %}
-                close: '{{ 'close'|trans({}, 'ShapecodeCookieConsent') }}',
+                close: '{{ 'close'|trans({}, 'RampeurCookieConsent') }}',
             },
             {% verbatim %}
             elements: {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Shapecode\Bundle\CookieConsentBundle\DependencyInjection;
+namespace Rampeur\Bundle\CookieConsentBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -8,7 +8,7 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
 /**
  * Class Configuration
  *
- * @package Shapecode\Bundle\CookieConsentBundle\DependencyInjection
+ * @package Rampeur\Bundle\CookieConsentBundle\DependencyInjection
  * @author  Nikita Loges
  */
 class Configuration implements ConfigurationInterface
@@ -16,7 +16,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('shapecode_cookie_consent');
+        $rootNode = $treeBuilder->root('rampeur_cookie_consent');
         $rootNode
             ->children()
                 ->arrayNode('layout')
