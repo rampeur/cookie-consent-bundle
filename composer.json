@@ -1,6 +1,6 @@
 {
     "name": "rampeur/cookie-consent-bundle",
-    "description": "Symfony Bundle for the Cookie Consent Plugin.",
+    "description": "Symfony 4 Bundle for the Cookie Consent Plugin.",
     "keywords": [
         "cookie",
         "consent",
