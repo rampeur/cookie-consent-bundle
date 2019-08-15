@@ -1,6 +1,6 @@
 <?php
 
-namespace Shapecode\Bundle\CookieConsentBundle\DependencyInjection;
+namespace Rampeur\Bundle\CookieConsentBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -8,13 +8,13 @@ use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 use Symfony\Component\HttpKernel\DependencyInjection\ConfigurableExtension;
 
 /**
- * Class ShapecodeCookieConsentExtension
+ * Class RampeurCookieConsentExtension
  *
- * @package Shapecode\Bundle\CookieConsentBundle\DependencyInjection
- * @author  Nikita Loges
- * @company tenolo GbR
+ * @package Rampeur\Bundle\CookieConsentBundle\DependencyInjection
+ * @author  Julien Gautier
+ * @company UnEspace SARL
  */
-class ShapecodeCookieConsentExtension extends ConfigurableExtension
+class RampeurCookieConsentExtension extends ConfigurableExtension
 {
     /**
      * @inheritDoc
@@ -25,7 +25,7 @@ class ShapecodeCookieConsentExtension extends ConfigurableExtension
         $loader = new YamlFileLoader($container, $locator);
         $loader->load('services.yml');
 
-        $container->setParameter('shapecode_cookie_consent.config', $mergedConfig);
+        $container->setParameter('rampeur_cookie_consent.config', $mergedConfig);
     }
 
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Shapecode\Bundle\CookieConsentBundle\Twig\Extension;
+namespace Rampeur\Bundle\CookieConsentBundle\Twig\Extension;
 
 use Twig\Environment;
 use Twig\Extension\AbstractExtension;
@@ -9,9 +9,9 @@ use Twig\TwigFunction;
 /**
  * Class CookieConsentExtension
  *
- * @package Shapecode\Bundle\CookieConsentBundle\Twig\Extension
- * @author  Nikita Loges
- * @company tenolo GbR
+ * @package Rampeur\Bundle\CookieConsentBundle\Twig\Extension
+ * @author  Julien Gautier
+ * @company UnEspace SARL
  */
 class CookieConsentExtension extends AbstractExtension
 {
@@ -44,7 +44,7 @@ class CookieConsentExtension extends AbstractExtension
      */
     public function getCookieConsent(Environment $environment)
     {
-        $template = ($this->config['template'] !== null)?$this->config['template']:'@ShapecodeCookieConsent/cookie_consent.html.twig';
+        $template = ($this->config['template'] !== null)?$this->config['template']:'@RampeurCookieConsent/cookie_consent.html.twig';
 
         return $environment->render($template,[
             'config' => $this->config

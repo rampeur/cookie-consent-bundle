@@ -1,18 +1,20 @@
-# Shapecode Cookie Consent Bundle
+# Rampeur Cookie Consent Bundle
 
-[![Latest Stable Version](https://poser.pugx.org/shapecode/cookie-consent-bundle/v/stable)](https://packagist.org/packages/shapecode/cookie-consent-bundle)
-[![Total Downloads](https://poser.pugx.org/shapecode/cookie-consent-bundle/downloads)](https://packagist.org/packages/shapecode/cookie-consent-bundle)
-[![Latest Unstable Version](https://poser.pugx.org/shapecode/cookie-consent-bundle/v/unstable)](https://packagist.org/packages/shapecode/cookie-consent-bundle)
-[![License](https://poser.pugx.org/shapecode/cookie-consent-bundle/license)](https://packagist.org/packages/shapecode/cookie-consent-bundle)
+[![Latest Stable Version](https://poser.pugx.org/rampeur/cookie-consent-bundle/v/stable)](https://packagist.org/packages/rampeur/cookie-consent-bundle)
+[![Total Downloads](https://poser.pugx.org/rampeur/cookie-consent-bundle/downloads)](https://packagist.org/packages/rampeur/cookie-consent-bundle)
+[![Latest Unstable Version](https://poser.pugx.org/rampeur/cookie-consent-bundle/v/unstable)](https://packagist.org/packages/rampeur/cookie-consent-bundle)
+[![License](https://poser.pugx.org/rampeur/cookie-consent-bundle/license)](https://packagist.org/packages/rampeur/cookie-consent-bundle)
 
-**Symfony Bundle for the popular [Cookie Consent plugin](https://cookieconsent.insites.com/).**
+**Symfony Bundle for the popular [Cookie Consent plugin](https://cookieconsent.osano.com/).**
+
+Ce projet est un fork de [Cookie Consent Bundle](https://github.com/shapecode/cookie-consent-bundle/) pour Symfony4 par [Shapecode](https://github.com/shapecode/)
 
 ## Install
 
 Via Composer
 
 ``` bash
-$ composer require shapecode/cookie-consent-bundle
+$ composer require rampeur/cookie-consent-bundle
 ```
 
 Enable the bundle in your kernel:
@@ -25,7 +27,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Shapecode\Bundle\CookieConsentBundle\ShapecodeCookieConsentBundle(),
+        new Rampeur\Bundle\CookieConsentBundle\RampeurCookieConsentBundle(),
     );
 }
 ```
@@ -35,13 +37,13 @@ public function registerBundles()
 Configure the bundle:
 
 ``` yaml
-shapecode_cookie_consent:
+rampeur_cookie_consent:
     // url to your privacy policy 
     policy_url: http://example.com/privacy
     
     // default layout options
     layout:
-        position: top  
+        position: top
         static: false
         theme: edgeless
         palette:
@@ -53,7 +55,7 @@ shapecode_cookie_consent:
                 text: #ffffff
 ```
 
-**Note:** Translations are in `ShapecodeCookieConsent.de` domain.
+**Note:** Translations are in `RampeurCookieConsent.fr` domain.
 
 Use the `cookie_consent` method in your Twig template:
 `{{ cookie_consent() }}`
