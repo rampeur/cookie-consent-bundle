@@ -21,6 +21,11 @@
     },
     "authors": [
         {
+            "name": "Nikita Loges",
+            "homepage": "https://loges.software",
+            "email": "software@nikita-loges.de"
+        },
+        {
             "name": "Julien Gautier",
             "homepage": "https://unespace.fr",
             "email": "admin@unespace.com"
